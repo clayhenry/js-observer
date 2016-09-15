@@ -36,7 +36,7 @@ Observer.prototype.add = function (index) {
 var observe = new Observer();
 observe.register();
 
-observe.inputItem.addEventListener("keyup", function(i){
+observe.inputItem.addEventListener("keyup", function(){
   //adds listeners based on index
     observe.add(0)
     observe.add(1)
