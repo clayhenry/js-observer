@@ -1,11 +1,5 @@
 
-<input type="input" name="subject" value="" class="subject">
 
-<div class="listener"></div>
-<div class="listener"></div>
-<div class="listener"></div>
-
-<script type="text/javascript">
 
 function Observer() {
     //stores updated data -- don't want to depend on DOM for state
@@ -49,7 +43,3 @@ observe.inputItem.addEventListener("keyup", function(i){
 })
 
 
-
-
-
-</script>
