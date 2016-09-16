@@ -13,7 +13,7 @@ function Observer() {
 Observer.prototype.register = function () {
         //lets create of listeners that will update when subject event changes
       this.listenersArray = document.querySelectorAll(".listener");
-      //reate array that matches the length of observers
+      //create array that matches the length of observers
       this.observerArray.length = this.listenersArray.length;
 };
 
