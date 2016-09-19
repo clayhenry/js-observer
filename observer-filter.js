@@ -14,7 +14,6 @@ function Observer() {
   this.inputItem = document.querySelector(".subject");
 }
 
-
 Observer.prototype.register = function () {
 
   this.listenersArray = document.querySelectorAll(".listener");
