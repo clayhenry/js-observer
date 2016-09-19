@@ -16,7 +16,7 @@ Observer.prototype.register = function () {
       this.observerArray.length = this.listenersArray.length;
 };
 
-Observer.prototype.update = function (indexMatch, callback) {
+Observer.prototype.update = function (index, callback) {
 //subject tells the listener of state change and updates
   for (var i = 0; i < this.observerArray.length; i++) {
           //index with data updates the matching listener element
@@ -27,7 +27,7 @@ Observer.prototype.update = function (indexMatch, callback) {
   }
   	if(callback){
     			
-    			var elem = this.listenersArray[indexMatch];
+    			var elem = this.listenersArray[index];
     			callback(elem);
           }
     	
